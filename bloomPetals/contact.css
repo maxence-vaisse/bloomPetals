@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(91, 110, 135);
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.menu li{
+    float: left;
+    padding: 35px;
+}
+
+form{
+    padding: 35px;
+    text-align: right;
+}
+
+input[type="search"]{
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(159, 159, 159);
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Dancing Script, sans-serif;
+    font-size: 40px;
+}
+
+.formulaire{
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="text"]{
+    font-size: 15px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(207, 207, 207);
+}
+
+.form-prenom{
+    padding-top: 15px;
+}
+
+.form-nom{
+    padding-top: 15px;
+}
+
+.form-adresse{
+    padding-top: 15px;
+}
+
+.form-message{
+    padding-top: 15px;
+}
+
+.form-politique{
+    padding-top: 15px;
+}
+
+.form-btn-envoyer{
+    padding-top: 15px;
+}
+
+.form-btn-envoyer button{
+    padding: 10px 20px;
+    background-color: #0370ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.form-btn-envoyer button:hover{
+    margin: 3px;
+    background-color: #0385ff;
+    color: white;
+}

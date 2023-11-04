@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="description" content="BloomPetals est une entreprise passionnée et créative spécialisée dans la confection
+        de magnifiques bouquets floraux pour embellir vos événements spéciaux. Que ce soit
+        un mariage, un anniversaire, une réception ou toute autre occasion festive.">
+        <link rel="stylesheet" type="text/css" href="contact.css">
+        <meta name="author" content="Maxence Vaisse">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+        <link rel="icon" href="/images/La plateforme école Marseille petit format en tête de page.png">
+        <title>BloomPetals</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="menu-nav">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="entreprise.html">Entreprise</a></li>
+                    <li><a href="realisation.html">Réalisations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <form>
+                    <input type="search" name="-barre-recherche" placeholder="Rechercher">
+                </form>
+            </nav>
+        </header>
+
+        <main>
+            <section class="titre-page">
+                <h1>Nous contacter</h1>
+            </section>
+            <section class="formulaire">
+                <label id="sexe">Sexe</label>
+                <select name="sexe" id="sexe">
+                    <option value="masculin">Masculin</option>
+                    <option value="feminin">Féminin</option>
+                </select>
+                <div class="form-prenom">
+                    <label for="entrer-prenom">Votre Prenom:</label>
+                    <input type="text" name="prenom" id="entrer-prenom">
+                </div>
+                <div class="form-nom">
+                    <label for="entrer-nom">Votre Nom:</label>
+                    <input type="text" name="nom" id="entrer-nom">
+                </div>
+                <div class="form-adresse">
+                    <label for="adresse-postal">Votre Adresse:</label>
+                    <input type="text" name="adresse" id="adresse-postal">
+                </div>
+                <div class="form-message">
+                    <textarea id="zone-texte" rows="6" cols="40" placeholder="Saisissez votre texte ici..."></textarea>
+                </div>
+                <div class="form-politique">
+                    <input type="checkbox" id="politiqueConfidentialite" name="politiqueConfidentialite">
+                    <label for="politiqueConfidentialite">J'accepte les politiques de confidentialité de l'entreprise.</label>
+                </div>
+                <div class="form-btn-envoyer">
+                    <button>Envoyer</button>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
